@@ -89,7 +89,7 @@ if (anotherOne /* ? which operator */ one) {
 	d. Both b & c
 	e. **Only c**
 
-### Which expression should be used to apply the discount in below code snippet
+### Which expression should be used to apply the discount in below code snippet accurately 
 
 ```javascript
 let exactAmtForDiscount = 9.999;
