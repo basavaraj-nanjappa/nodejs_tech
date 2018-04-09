@@ -28,7 +28,7 @@
 ### Using Node.js which of below can be done
 
 	a. Process data as Streams
-	b. Performance Asynchronous operations
+	b. Perform Asynchronous operations
 	c. Efficient use of CPU time
 	d. Apply functional programming paradigm
 	e. Interface with other backend services
