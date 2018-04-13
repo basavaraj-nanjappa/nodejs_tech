@@ -66,7 +66,7 @@
 ### Identify the Computation expression from below
 
 	a. const fs = require('fs');
-	b. if(fs === undefined) { console.log('Oops.!'); }
+	b. if(fs.read() === undefined) { console.log('Oops.!'); }
 	c. while(fs.read()) { console.log('Reading..!'); }
 	*d. (a, b) => math.pow(a, b)
 	e. None of the above
