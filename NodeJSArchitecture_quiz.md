@@ -13,8 +13,8 @@
 	a. Irrespective of incoming request, there will be only one main thread to accept the request and return response
 	b. All computing expressions are executed or processed by only one main thread
 	c. Only one thread which executes instructions from the call stack
-  *d. Due to single thread, only one request is processed at a time, hence it will block concurrent requests
-  e. NodeJS process has only one thread running in it
+	*d. Due to single thread, only one request is processed at a time, hence it will block concurrent requests
+	e. NodeJS process has only one thread running in it
 
 ### Which of below method is helpful to execute code explicitly on event loop
 
