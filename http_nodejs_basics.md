@@ -66,12 +66,11 @@
 
 ### Which of below is a invalid HTTP response code
 
-    a. 604
-    b. 504
-    c. 404
-    d. 304
-    e. 204
-    f. 104
+    a. 404
+    b. 304
+    c. 204
+    d. 104
+    *e. 004
 
 ### Given a URL end point `http://example.com/employees/1092/certificates`, identify possible URL parameter in the end point
 
@@ -81,7 +80,7 @@
     *d. All of the Above
     e. None of the Above
 
-### Which of below module can be used for developing web services in NodeJS
+### Which one of below listed module is useful in developing web services in NodeJS
 
     a. `url`
     b. `querystring`
@@ -89,18 +88,18 @@
     d. 'https'
     *e. All of the Above
 
-### Given below end code, which URLs are matched, are sure to receive response with status code 200
+### Given below code, which URLs or the end points are matched, are sure to receive response with status code 200
 
 ```javascript
 const http = require('http');
 http.createServer((req, res) => res.end(' Thank you ')).listen(3000);
 ```
 
-    a. curl -v -X GET http://localhost:3000/example
-    b. curl -v -X POST http://localhost:3000/example
-    c. curl -v -X PATCH http://localhost:3000/example
-    d. curl -v -X DELETE http://localhost:3000/example
-    e. curl -v -X PUT http://localhost:3000/example
+    a. curl -v -X GET http://localhost:3000/example/one
+    b. curl -v -X POST "http://localhost:3000/example/two?un=john"
+    c. curl -v -X PATCH "http://localhost:3000/example/three?un=john&pw=loginifucan"
+    d. curl -v -X DELETE "http://localhost:3000/example/four?un=john&pw=loginifucant&tk=ADF72348aSDFAew9132sD492"
+    e. curl -v -X PUT "http://localhost:3000/example//five?un=john&pw=loginifucant&tk=ADF72348aSDFAew9132sD492&q=_"
     *f. All of the Above
 
 ### What is the version of HTTP protocol in use today ?
