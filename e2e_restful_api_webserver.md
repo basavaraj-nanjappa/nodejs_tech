@@ -14,6 +14,7 @@
 	c. A System and bot can talk to one another
 	d. We can enable interoperability with a system
 	e. Systems can be extended to interact more with user
+	
 
 
 ## Project Structuring
