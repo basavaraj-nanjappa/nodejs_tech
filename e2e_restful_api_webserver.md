@@ -4,7 +4,7 @@
 
 	a. By making a telephone call to Alexa
 	b. Automating sending email to Alexa
-	c. Developing & Integrating with REST style APIs
+	*c. Developing & Integrating using REST style APIs
 	d. By accessing Alexa Database
 	e. By linking Grocery system database with Alexa database
 
@@ -15,13 +15,14 @@
 	c. A System and bot can talk to one another
 	d. We can enable interoperability with a system
 	e. Systems can be extended to interact more with user
+	*f. All of the Above
 
 #### Without standardized APIs, what issues we may have to counter?
 
 	a. Integration becomes tightly coupled
 	b. Time to integration takes long time
 	c. Different code bases to communicate with different clients for same server or visa verse
-	d. All of the Above
+	*d. All of the Above
 	e. None of the Above
 
 #### Which is true about HATEOS in below?
