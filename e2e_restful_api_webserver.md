@@ -104,6 +104,16 @@
 	d. All code of a component/module is in one place
 	e. None of the Above
 
+
+#### Which of below is usually a role to play in MVC based project organization in NodeJS
+
+	a. Router
+	b. Controller
+	c. Service
+	d. DAO
+	e. All of the above
+	f. None of the above
+
 #### Separation of concern refers to which of below
 
 	a. Separate request recognizing (matching), parsing from handling of request
