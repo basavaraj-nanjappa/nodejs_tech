@@ -80,5 +80,18 @@
 	e. None of the Above
 
 ## Logging
+ 
+#### Which one of these libraries is not suitable for handling ERROR logs?
+	a. winston
+	b. log4js
+	c. bunyan
+	*d. morgan
 
-## Application Configurations
+## Applicaton Configurations
+
+#### What is the correct way to provide mongodb url in your app config?
+	a. const MONGO_URL = "mongodb://localhost:27017"
+	b. const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017"
+	c. const MONGO_URL = process.env.MONGO_URL
+	d. None of the above
+	
