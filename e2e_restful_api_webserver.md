@@ -51,6 +51,31 @@
 	*e. TCP/IP
 	f. All of the Above
 
+#### Which of below is incorrect semantic for Uniform Resource Identifier
+
+	a. GET https://example.com/products/
+	b. GET https://example.com/products/:productId/reviews
+	c. GET https://example.com/products/:productId/ratings
+	d. GET https://example.com/products/:productId/orders
+	*e. GET https://example.com/products/:productId/getRatings
+
+#### Which of below is incorrect semantic for Uniform Resource Identifier
+
+	a. GET https://example.com/products/
+	*b. GET https://example.com/findProducts
+	c. POST https://example.com/products/
+	d. PATCH https://example.com/products/:productId
+	e. DEL https://example.com/products
+
+#### Which of below are REST principles
+
+	a. Uniform interface for Resources
+	b. System follows Client - Server architecture, i.e., server has business logic, client interfaces only and can evolve independently
+	c. Server is Stateless, will not store anything about client requests or past requests on server
+	d. Resources are Cacheable, either on client side or in the network
+	e. Layered system
+	f. All of above
+	
 ## Project Structuring
 
 #### Pragmatic project structuring is essential because
@@ -79,19 +104,62 @@
 	d. All code of a component/module is in one place
 	e. None of the Above
 
+#### Separation of concern refers to which of below
+
+	a. Separate request recognizing (matching), parsing from handling of request
+	b. Separate business logic steps from orchestration steps
+	c. Separate database interaction from business logic
+	*d. All of the above
+	e. None of the above
+
 ## Logging
- 
+
 #### Which one of these libraries is not suitable for handling ERROR logs?
+
 	a. winston
 	b. log4js
 	c. bunyan
 	*d. morgan
+	e. None of the above
 
-## Applicaton Configurations
+#### Which of below is a valid reason to use a library for logging?
 
-#### What is the correct way to provide mongodb url in your app config?
-	a. const MONGO_URL = "mongodb://localhost:27017"
-	b. const MONGO_URL = process.env.MONGO_URL || "mongodb://localhost:27017"
-	c. const MONGO_URL = process.env.MONGO_URL
-	d. None of the above
-	
+	a. Using console.log will spam application logs and not useful to diagnose
+	b. Logging must be controllable as a config, without any code change
+	c. Errors should be logged all the time
+	d. Desirable to configure Logging format, file size, rotation of files and name of log files
+	e. All of the above
+
+### Which of below is a valid Logging level
+
+	a. TRACE
+	b. ERROR
+	c. INFO
+	d. DEBUG
+	e. WARNING
+	*f. All of the above
+
+## Application Configurations
+
+#### What is the correct way to set the mongodb url in your application config?
+	a. `const MONGO_URL = "mongodb://localhost:27017";`
+	b. `const MONGO_URL = (process.env.MONGO_URL || "mongodb://localhost:27017";`
+	c. `const MONGO_URL = process.env.MONGO_URL`
+	d. All of the above
+	e. None of the above
+
+#### Which of below is invalid values conventionally set for `NODE_ENV`
+
+	a. "production"
+	b. "development"
+	c. "test"
+	*d. "local"
+	e. None of the above
+
+#### Which of below is a valid about application configuration
+
+	a. All configuration should be in one central place
+	b. Application behavior should change according to deployment environment without code change
+	c. Hard coded values are recipe for disastrous quality of application
+	d. All of the above
+	e. None of the above
