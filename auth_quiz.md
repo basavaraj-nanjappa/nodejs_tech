@@ -64,3 +64,18 @@ Authentication & Authorization
 	*d. All of the above
 	e. None of the above
 	
+### Which of below are alternatives to PassportJS
+
+	a. Custom developed authentication mechanism
+	b. Auth0
+	c. Using the `jswonwebtoken' module or library
+	d. All of the Above
+	e. None of the Above
+
+### Which of below can be set on JWT Token
+
+	a. A private key or secret
+	b. expiration time
+	c. Issuer address
+	d. Issued time
+	e. All of the above
