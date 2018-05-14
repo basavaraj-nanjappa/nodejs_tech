@@ -79,3 +79,28 @@ Authentication & Authorization
 	c. Issuer address
 	d. Issued time
 	e. All of the above
+
+### Which of below is not a valid strategy in PassportJS
+
+	a. Passport-local
+	b. Passport-OAuth2
+	c. Passport-custom
+	d. Passport-github
+	*e. Passport-basic
+	
+### Which of below headers should be disabled or controlled
+
+	a. X-XSS-Protection
+	b. X-Powered-By
+	c. Referrer-Header
+	d. Strict-Transport-Security
+	*e. All of the Above
+	f. None of the Above
+	
+### Which of below status codes are used for Authentication status of API
+
+	a. 401
+	b. 403
+	c. 407
+	*d. All of the Above
+	e. None of the Above
