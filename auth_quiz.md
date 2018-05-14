@@ -15,13 +15,13 @@ Authentication & Authorization
 	c. Algorithm to decrypt and match password
 	d. None of the Above
 
-### Which of below is not a type of Authentication
+### Which of below is not a `type` of `Authentication`
 
 	a. Single factor authentication
 	b. Two factor authentication
 	c. Multi factor authentication
-	*d. Single Sign-on
-	e. One time password OTP
+	d. Single Sign-on
+	*e. One time password OTP
 
 ### Which of below is not used for integrating Identification process
 
@@ -36,5 +36,31 @@ Authentication & Authorization
 	a. Basic
 	b. Bearer
 	c. Digest
-	d. All of the Above
+	*d. All of the Above
 	e. None of the Above
+
+### Which of below are part of JWT Token
+
+	a. Header
+	b. Payload
+	c. Signature
+	*b. All of the Above
+	c. None of the Above
+	
+### Why is it useful to use of Token based authentication
+
+	a. Compact
+	b. Self-contained
+	c. Authentication process can be stateless
+	d. Fits both user based and system based authentication scenarios
+	*e. All of the above
+	
+
+### What is PassportJS in the context of NodeJS
+
+	a. Library for flexible authentication mechanism
+	b. Authentication middleware
+	c. Extensible to various authentication types & ways
+	*d. All of the above
+	e. None of the above
+	
