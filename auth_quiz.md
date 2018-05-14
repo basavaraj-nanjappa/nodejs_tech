@@ -30,3 +30,11 @@ Authentication & Authorization
 	c. SAML
 	d. Auth0
 	*e. Username & Password
+
+### Which of below types of authorization can be set using `Authorization` header
+
+	a. Basic
+	b. Bearer
+	c. Digest
+	d. All of the Above
+	e. None of the Above
