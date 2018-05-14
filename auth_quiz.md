@@ -104,3 +104,39 @@ Authentication & Authorization
 	c. 407
 	*d. All of the Above
 	e. None of the Above
+
+### Which of below refers to Authorization
+
+	a. Controlling of the access to resources
+	b. Role based access control
+	c. Checking the grants of the access on a resources
+	d. All of the Above
+	e. None of the Above
+
+
+### Which of below is correct way to chain the PassportJS middleware for authentication
+
+	a. Simply by adding middleware before the handler method
+
+```javascript
+app.post('/login', passport.authenticate('local'), (req, res) => res.send('Successfully authenticated'));
+```
+
+	b. By registering a custom callback for the strategy
+```javascript
+app.post('/login', function(req, res, next) {
+  passport.authenticate('local', function(err, user, info) {
+    if (err) { return res.send('Error in authentication') }
+    if (!user) { return res.send('User does not exists'); }
+    return res.send('Successfully authenticated');
+  })(req, res, next);
+});
+```
+
+	b. Simply specify the routes to redirect to after the authentication
+```javascript
+app.post('/login', passport.authenticate('local', { successRedirect: '/', failureRedirect: '/login' }));
+```
+
+	*c. All of the Above
+	d. None of the Above
