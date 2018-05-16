@@ -92,5 +92,22 @@
 	a. Reads data as chunks
 	b. Handles back pressure
 	c. Can pause and resume stream operation
-	d. Only Asynchronous operations can be performed
+	*d. Only Asynchronous operations can be performed
 	e. Streams can be on Object mode
+
+#### Which of below are useful modules for Stream processing
+
+	a. `through2`
+	b. `highlandjs`
+	c. `JSONStream`
+	d. `stream-to-mongo-db`
+	*e. All of the Above
+
+#### Which of below module has to be used for implementing custom stream
+
+	a. `require('fs')`
+	b. `require('http')`
+	*c. `require('stream')`
+	d. `require('events')`
+	e. None of the Above
+
