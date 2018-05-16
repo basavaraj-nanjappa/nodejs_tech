@@ -13,7 +13,7 @@
 	a. Readable Stream
 	b. Writable Stream
 	c. Duplex Stream
-	d. Transforming Stream
+	d. Transform Stream
 	*e. None of the Above
 
 #### In NodeJS Streams are implemented using which of below
@@ -55,3 +55,42 @@
 	c. Read data from Databases as stream
 	d. Add processing pipes to data stream in extensible way
 	*e. All of the Above
+
+#### Which of below statement is false about Duplex and Transform streams
+
+	a. Has a separate buffer for reading data
+	b. Has a separate buffer for writing data
+	*c. Has only one buffer for reading and writing data
+	d. None of the Above
+
+#### Which of below event is not supported by Writable Streams in NodeJS
+
+	*a. Event `data`
+	b. Event `drain
+	c. Event `pipe`
+	d. Event `unpipe`
+	e. Event `finish`
+
+#### Which of below event is not supported by Readable Streams in NodeJS
+
+	a. Event `data`
+	b. Event `end`
+	c. Event `error`
+	*d. Event `cork`
+	e. Event `redable`
+
+#### Which of below event is not supported by Duplex Streams in NodeJS
+
+	a. Event `data`
+	b. Event `drain`
+	c. Event `error`
+	*d. Event `destroy`
+	e. Event `unpipe`
+
+#### Which of below statement is false about Streams
+
+	a. Reads data as chunks
+	b. Handles back pressure
+	c. Can pause and resume stream operation
+	d. Only Asynchronous operations can be performed
+	e. Streams can be on Object mode
