@@ -111,3 +111,9 @@
 	d. `require('events')`
 	e. None of the Above
 
+#### Which of below API method is not supported for EventEmitter
+
+	a. `emitter.once`
+	b. `emitter.on`
+	c. `emitter.emit`
+	*d. `emitter.observe`
