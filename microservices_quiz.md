@@ -98,7 +98,7 @@
 	b. Two pizzas are enough to feed the team
 	c. Can release(deploy, distribute) Independently
 	d. Another service cannot write or read data of another service
-	e. All of the Above
+	*e. All of the Above
 	f. None of the Above
 
 #### Considering a eCommerce system, which of below is not a Microservice
@@ -106,7 +106,7 @@
 	a. Product catalog & Shopping cart
 	b. Orders & Shipping
 	c. Customer & Subscriptions
-	d. All of the Above
+	*d. All of the Above
 	e. None of the Above
 	
 #### When you should avoid Microservice
@@ -116,12 +116,12 @@
 	c. The system has to be deployed on a limited infra as a single unit
 	d. Eventual consistency is not acceptable (CAP Theorem is not applicable)
 	e. Not enough independent responsibilities
-	f. All of the Above
+	*f. All of the Above
 
 #### Which of below refers to or is true regarding "Stateless Microservice"
 
-	a. Which is not a "Stateful Microservice"
+	a. As no state, easier to scale to infinite number of instances
 	b. Which has no persistence layer
 	c. Does not share database with other service
-	d. All of the Above
+	*d. All of the Above
 	e. None of the Above
