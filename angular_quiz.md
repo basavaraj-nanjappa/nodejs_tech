@@ -53,6 +53,14 @@
 	c. Promise
 	d. Callback
 	e. arrow notation methods
+
+#### Which of below is a odd one in Angular.io
+
+	a. {expression}
+	b. {{expression}}
+	c. [{expression}]
+	d. (expression)
+	e. [(expression)]
   
 #### Which of below is followed by Angular.io
 
@@ -61,5 +69,10 @@
 	c. Incremental DOM
 	d. Object DOM
 
-  
-  
+#### What is the decorator used for configuring your module class?
+
+	a. @NgModule
+	b. @NgApp
+	c. @import
+	d. @export
+	
