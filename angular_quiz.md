@@ -8,11 +8,11 @@
     
 #### Which of below are benefits of HttpClient?
 
-  a. Supports Observable APIs
-  b. Helps Angular run time handle server side communication
-  c. Simplified Asynchronous HTTP Communication with server
-  d. Provides typed request and response objects
-  e. Supports streamlined error handling. 
+	a. Supports Observable APIs
+	b. Helps Angular run time handle server side communication
+	c. Simplified Asynchronous HTTP Communication with server
+	d. Provides typed request and response objects
+	e. Supports streamlined error handling. 
 
 #### Pick the odd one out in the context of Angular.io concepts
 
