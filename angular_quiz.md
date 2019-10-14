@@ -5,16 +5,14 @@
 	c. Angular recognizes the value as `unsafe` and automatically sanitizes it
 	d. Build will fail
 	e. All of the above
-  
-  
+    
 #### Which of below are benefits of HttpClient?
 
-	a. Supports Observable APIs
+  a. Supports Observable APIs
   b. Helps Angular run time handle server side communication
   c. Simplified Asynchronous HTTP Communication with server
   d. Provides typed request and response objects
   e. Supports streamlined error handling. 
-
 
 #### Pick the odd one out in the context of Angular.io concepts
 
@@ -32,7 +30,6 @@
 	d. @Error
 	e. @Component
   
-  
 #### Which of below is not a type of directive
 
 	a. Component 
@@ -47,7 +44,7 @@
 	b. asynch
 	c. Promise
 	d. Callback
-  e. arrow notation methods
+	e. arrow notation methods
   
 #### Which of below are used for ansychronous execution of code in Typescript
 
@@ -55,7 +52,7 @@
 	b. asynch
 	c. Promise
 	d. Callback
-  e. arrow notation methods
+	e. arrow notation methods
   
 #### Which of below is followed by Angular.io
 
